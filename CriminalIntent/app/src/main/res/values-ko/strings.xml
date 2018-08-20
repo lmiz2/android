@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">범죄기록</string>
+    <string name="crime_title_hint">범죄의 제목을 입력하세요.</string>
+    <string name="crime_title_label">제목</string>
+    <string name="crime_details_label">상세</string>
+    <string name="crime_solved_label">해결됨</string>
+    <string name="toFirst">처음으로</string>
+    <string name="toLast">마지막으로</string>
+    <string name="date_picker_title">범죄일자 :</string>
+    <string name="new_crime">새 항목</string>
+    <string name="show_subtitle">부제목 표시</string>
+    <string name="hide_subtitle">부제목 숨기기</string>
+    <string name="subtitle_format">%1$d건</string>
+    <string name="del_crime">삭제\'</string>
+    <string name="crime_suspect_text">용의자 선택</string>
+    <string name="crime_report_text">범죄기록 보내기</string>
+    <string name="crime_report">%1$s!
+ The crime was discovered on %2$s. %3$s, and %4$s
+ </string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not solved</string>
+    <string name="crime_report_no_suspect">there is no suspect.</string>
+    <string name="crime_report_suspect">the suspect is %s.</string>
+    <string name="crime_report_subject">CriminalIntent Crime Report</string>
+    <string name="send_report">Send crime report via</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="fullscreen_back">뒤로 가기</string>
+    <string name="copy_crime_img">이미지 복사</string>
+
+</resources>
