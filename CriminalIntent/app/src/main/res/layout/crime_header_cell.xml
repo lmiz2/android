@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/crime_header_cell_id"
+    android:orientation="vertical">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/crime_photo"
+        android:background="@android:color/darker_gray"
+        android:cropToPadding="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/crime_camera"
+        android:src="@android:drawable/ic_menu_camera"/>
+</LinearLayout>

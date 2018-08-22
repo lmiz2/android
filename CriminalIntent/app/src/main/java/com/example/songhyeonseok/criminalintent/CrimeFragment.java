@@ -345,7 +345,7 @@ public class CrimeFragment extends Fragment {
 
     private void updateCrime() {
         CrimeLab.getInstance(getActivity()).updateCrime(mCrime);
-        mCallbacks.onCrimeUpdated(mCrime);
+//        mCallbacks.onCrimeUpdated(mCrime);
     }
 
     @Override

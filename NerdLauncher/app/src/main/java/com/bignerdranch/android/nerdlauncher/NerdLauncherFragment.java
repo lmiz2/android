@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.Collections;
@@ -55,15 +56,24 @@ public class NerdLauncherFragment extends Fragment {
     private class ActivityHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private ResolveInfo mResolveInfo;
         private TextView mNameTextView;
-        public ActivityHolder(View itemView) {
-            super(itemView);
-            mNameTextView = (TextView) itemView;
-            mNameTextView.setOnClickListener(this);
+        private ImageView mImageView;
+//        public ActivityHolder(View itemView) {
+//            super(itemView);
+//            mNameTextView = (TextView) itemView;
+//            mNameTextView.setOnClickListener(this);
+//        }
+        ActivityHolder(LayoutInflater inflater, ViewGroup viewGroup){
+            super(inflater.inflate(R.layout.list_item_apps,viewGroup,false));
+            itemView.setOnClickListener(this);
+            mNameTextView = (TextView) itemView.findViewById(R.id.list_app_name);
+            mImageView =  itemView.findViewById(R.id.list_app_icon);
+
         }
         public void bindActivity(ResolveInfo resolveInfo) {
             mResolveInfo = resolveInfo;
             PackageManager pm = getActivity().getPackageManager();
             String appName = mResolveInfo.loadLabel(pm).toString();
+            mImageView.setImageDrawable(mResolveInfo.loadIcon(pm));
             mNameTextView.setText(appName);
         }
         @Override
@@ -87,7 +97,7 @@ public class NerdLauncherFragment extends Fragment {
             LayoutInflater layoutInflater = LayoutInflater.from(getActivity());
             View view = layoutInflater
                     .inflate(android.R.layout.simple_list_item_1, parent, false);
-            return new ActivityHolder(view);
+            return new ActivityHolder(layoutInflater ,parent);
         }
         @Override
         public void onBindViewHolder(ActivityHolder holder, int position) {
