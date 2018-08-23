@@ -4,6 +4,7 @@ public class GalleryItem {
     private String mCaption;
     private String mId;
     private String mUrl;
+    private boolean isNewItem;
     @Override
     public String toString() {
         return mCaption;
@@ -31,5 +32,13 @@ public class GalleryItem {
 
     public void setUrl(String url) {
         mUrl = url;
+    }
+
+    public boolean isNewItem() {
+        return isNewItem;
+    }
+
+    public void setNewItem(boolean newItem) {
+        isNewItem = newItem;
     }
 }
