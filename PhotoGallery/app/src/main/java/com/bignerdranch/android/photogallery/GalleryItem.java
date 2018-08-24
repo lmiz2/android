@@ -1,10 +1,13 @@
 package com.bignerdranch.android.photogallery;
 
+import android.net.Uri;
+
 public class GalleryItem {
     private String mCaption;
     private String mId;
     private String mUrl;
     private boolean isNewItem;
+    private String mOwner;
     @Override
     public String toString() {
         return mCaption;
@@ -41,4 +44,19 @@ public class GalleryItem {
     public void setNewItem(boolean newItem) {
         isNewItem = newItem;
     }
+
+    public String getOwner() {
+        return mOwner;
+    }
+    public void setOwner(String owner) {
+        mOwner = owner;
+    }
+    public Uri getPhotoPageUri() {
+        return Uri.parse("https://www.flickr.com/photos/")
+                .buildUpon()
+                .appendPath(mOwner)
+                .appendPath(mId)
+                .build();
+    }
+
 }

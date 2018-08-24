@@ -1,5 +1,6 @@
 package com.bignerdranch.android.photogallery;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
@@ -165,13 +166,17 @@ public class PhotoGalleryFragment extends Fragment {
 
     }
 
-    private class PhotoHolder extends RecyclerView.ViewHolder {
+    private class PhotoHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private ImageView mItemImageView;
         private TextView mTextView;
+        private GalleryItem mGalleryItem;
+
         public PhotoHolder(View itemView) {
             super(itemView);
             mItemImageView = (ImageView) itemView.findViewById(R.id.item_image_view);
             mTextView = itemView.findViewById(R.id.item_text_view);
+            itemView.setOnClickListener(this);
+
         }
 //        public void bindGalleryItem(GalleryItem item) {
 //            if(item.isNewItem()) {
@@ -191,6 +196,16 @@ public class PhotoGalleryFragment extends Fragment {
             mTextView.setVisibility(View.VISIBLE);
             mItemImageView.setVisibility(View.GONE);
         }
+        public void bindGalleryItem(GalleryItem galleryItem) {
+            mGalleryItem = galleryItem;
+        }
+        @Override
+        public void onClick(View v) {
+            Intent i = new Intent(Intent.ACTION_VIEW, mGalleryItem.getPhotoPageUri());
+            startActivity(i);
+        }
+
+
 
     }
 
@@ -222,6 +237,7 @@ public class PhotoGalleryFragment extends Fragment {
             GalleryItem galleryItem = mGalleryItems.get(position);
 //            Drawable placeholder = getResources().getDrawable(R.drawable.stk);
 //            photoHolder.bindDrawable(placeholder);
+            photoHolder.bindGalleryItem(galleryItem);
             photoHolder.setVisibleInit();
             mThumbnailDownloader.queueThumbnail(photoHolder, galleryItem.getUrl());
         }
