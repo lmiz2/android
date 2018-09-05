@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/black"
+        android:icon="@drawable/black"
+        android:title="검은색"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/white"
+        android:icon="@drawable/white"
+        android:title="흰색"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/red"
+        android:icon="@drawable/red"
+        android:title="빨강색"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/blue"
+        android:icon="@drawable/blue"
+        android:title="파랑색"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/green"
+        android:icon="@drawable/green"
+        android:title="초록색"
+        app:showAsAction="always"/>
+
+</menu>

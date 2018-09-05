@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="350dp"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="친구 초대하기"
+        android:background="#ffffff"
+        android:textColor="#3c3c3c"
+        android:textSize="20dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ScrollView
+
+            android:id="@+id/main_box_scrollview"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="match_parent"
+
+            android:background="#e9edee"
+
+            android:fillViewport="true"
+
+            android:scrollbars="none"
+
+            android:visibility="visible">
+
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+
+                <ListView
+                    android:id="@+id/main_box_text_listview"
+
+                    android:layout_width="fill_parent"
+
+                    android:layout_height="match_parent"
+
+                    android:layout_gravity="center"
+
+                    android:cacheColorHint="#00000000"
+
+                    android:choiceMode="multipleChoice"
+
+                    android:clickable="false"
+
+                    android:focusable="false"
+
+                    android:focusableInTouchMode="false"
+
+                    android:longClickable="false"
+
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/okbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:text="초대"
+            android:visibility="invisible" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/border_big"
+        android:title="굵게"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/border_mid"
+        android:title="중간"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/border_small"
+        android:title="가늘게"
+        app:showAsAction="always"/>
+
+</menu>

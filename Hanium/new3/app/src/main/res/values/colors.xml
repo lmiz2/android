@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#200000</color>
+    <color name="colorPrimaryDark">#330020</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="twit_blue">#00FFFF</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#30000000"
+    android:layout_alignParentTop="true">
+    <ListView
+        android:id="@+id/chatt_datas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="16"
+        android:orientation="horizontal"
+        android:background="#10000000">
+        <EditText
+            android:id="@+id/chatt_input"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="보내기"
+            android:id="@+id/chatt_send"
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/todolist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        android:background="@drawable/borderlayout"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+            android:id="@+id/todolist_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TO DO"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:visibility="gone"
+                android:src="@drawable/fab_add"
+                android:id="@+id/bef_addbtn_todo"
+                android:layout_weight="8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ListView
+                android:visibility="gone"
+                android:id="@+id/list_view1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/addbtn"
+                android:text="추가하기"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
