@@ -1,0 +1,4 @@
+#Wed Sep 06 14:36:39 KST 2017
+base.0=C\:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4
+renamed.0=classes.dex
+file.0=C\:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4\\classes.dex

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\lmiz2\OneDrive\androidproject\Postech\customtabs\src\main\assets"/><source path="C:\Users\lmiz2\OneDrive\androidproject\Postech\customtabs\assets"/><source path="C:\Users\lmiz2\OneDrive\androidproject\Postech\customtabs\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\lmiz2\OneDrive\androidproject\Postech\customtabs\src\debug\assets"/></dataSet></merger>

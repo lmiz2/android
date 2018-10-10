@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 57,
+                    "endOffset": 159
+                },
+                "from": {
+                    "file": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 57,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 164,
+                    "endColumn": 70,
+                    "endOffset": 230
+                },
+                "from": {
+                    "file": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 308,
+                        "endColumn": 70,
+                        "endOffset": 374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 235,
+                    "endColumn": 71,
+                    "endOffset": 302
+                },
+                "from": {
+                    "file": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 71,
+                        "endOffset": 231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 307,
+                    "endColumn": 71,
+                    "endOffset": 374
+                },
+                "from": {
+                    "file": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 236,
+                        "endColumn": 71,
+                        "endOffset": 303
+                    }
+                }
+            }
+        ]
+    }
+]

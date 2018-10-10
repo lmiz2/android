@@ -1,0 +1,7 @@
+#Wed Sep 06 14:36:40 KST 2017
+base.0=C\:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f0fce9f41d73ac5921e3291ea9ea634aa4bb68e2
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9274972ed3684e35047dc05d94bb7de0b59af023\\classes.dex
+base.1=C\:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9274972ed3684e35047dc05d94bb7de0b59af023
+file.0=C\:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f0fce9f41d73ac5921e3291ea9ea634aa4bb68e2\\classes.dex

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\car.png",
+        "source": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\drawable\\car.png"
+    },
+    {
+        "merged": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pump.gif",
+        "source": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\drawable\\pump.gif"
+    },
+    {
+        "merged": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mpg.png",
+        "source": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\drawable\\mpg.png"
+    },
+    {
+        "merged": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\temp.png",
+        "source": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\drawable\\temp.png"
+    },
+    {
+        "merged": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coolant_gauge.xml",
+        "source": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\drawable\\coolant_gauge.xml"
+    },
+    {
+        "merged": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compass.png",
+        "source": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\drawable\\compass.png"
+    },
+    {
+        "merged": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\accel_gauge.xml",
+        "source": "C:\\Users\\SongHyeonSeok\\OneDrive\\androidproject\\obd-reader\\app\\src\\main\\res\\drawable\\accel_gauge.xml"
+    }
+]
