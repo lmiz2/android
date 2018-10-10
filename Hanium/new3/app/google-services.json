@@ -1,0 +1,163 @@
+{
+  "project_info": {
+    "project_number": "986118479870",
+    "firebase_url": "https://hanium-draw-commu.firebaseio.com",
+    "project_id": "hanium-draw-commu",
+    "storage_bucket": "hanium-draw-commu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986118479870:android:d928706ff631842a",
+        "android_client_info": {
+          "package_name": "com.example.lmiz2.dving"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986118479870-1ad2dsfhhn1q99o1qvtd4me19vagbikp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lmiz2.dving",
+            "certificate_hash": "126dbd48e4eae5da7423db4b99077a820767b476"
+          }
+        },
+        {
+          "client_id": "986118479870-7prgh0f0grcrnr3ectgp6u0a0mfqmdh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lmiz2.dving",
+            "certificate_hash": "48eccc3470ddb6a6959e3bdf66029cf26a6c8738"
+          }
+        },
+        {
+          "client_id": "986118479870-f00rcehhm976p5f58mtv0ojed463ov05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lmiz2.dving",
+            "certificate_hash": "7a2190c070c3e67f29b94bccd99a7bbf4e87dffc"
+          }
+        },
+        {
+          "client_id": "986118479870-pmsq13dm9gsbneatigdgkcmj83ll9ela.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lmiz2.dving",
+            "certificate_hash": "d8d9162c0ea12d68f412a11dbb6087d453d0a630"
+          }
+        },
+        {
+          "client_id": "986118479870-cshjaclv6jdaj3969ij01jupua0kg7d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lmiz2.dving",
+            "certificate_hash": "4bd7c71e59b52815f18a0b5456ead4e818689109"
+          }
+        },
+        {
+          "client_id": "986118479870-pmivmfrp967edlphfij11rcjvl8fp6ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAa7b8-AOTfr-hp43nSC9f50NHSW_kCvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986118479870-pmivmfrp967edlphfij11rcjvl8fp6ku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986118479870:android:db4c8924eabd8d94",
+        "android_client_info": {
+          "package_name": "com.example.songhyeonseok.drawing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986118479870-nklo0vhrms41o6iqshj3hu18krqr27s3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.songhyeonseok.drawing",
+            "certificate_hash": "126dbd48e4eae5da7423db4b99077a820767b476"
+          }
+        },
+        {
+          "client_id": "986118479870-ou9g0reggndkaorhdt2rujvb1btjnstn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.songhyeonseok.drawing",
+            "certificate_hash": "48eccc3470ddb6a6959e3bdf66029cf26a6c8738"
+          }
+        },
+        {
+          "client_id": "986118479870-t5fpgn1smq8tv7p48b5om5r4h3j9v1m7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.songhyeonseok.drawing",
+            "certificate_hash": "7a2190c070c3e67f29b94bccd99a7bbf4e87dffc"
+          }
+        },
+        {
+          "client_id": "986118479870-5klo1ficavn9gorqpp6a9oai6rcplgfr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.songhyeonseok.drawing",
+            "certificate_hash": "d8d9162c0ea12d68f412a11dbb6087d453d0a630"
+          }
+        },
+        {
+          "client_id": "986118479870-eja3u2r5g0tkl619mve93oiagavkabat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.songhyeonseok.drawing",
+            "certificate_hash": "f0cd975f87d5de82b3b30191da90dfad5bb281fc"
+          }
+        },
+        {
+          "client_id": "986118479870-pmivmfrp967edlphfij11rcjvl8fp6ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAa7b8-AOTfr-hp43nSC9f50NHSW_kCvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986118479870-pmivmfrp967edlphfij11rcjvl8fp6ku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
