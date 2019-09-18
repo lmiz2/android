@@ -89,6 +89,8 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import static com.example.songhyeonseok.drawing.R.id.fab_menu;
+
 
 public class PaintingRoom extends AppCompatActivity{
     private String idByANDROID_ID;
@@ -270,10 +272,8 @@ public class PaintingRoom extends AppCompatActivity{
         coverArea = (LinearLayout)findViewById(R.id.coverArea_paintroom);
         l1 = (ImageView) findViewById(R.id.canvas1);
 
-        //BackgroundDrawingView robot1 = new BackgroundDrawingView(this,width_coeffi,height_coeffi); ----------------------스레드 임시 멈춤///////////////////////////
         mv = new MyView(this,width_coeffi,height_coeffi);
         parent.addView(mv);
-        //parent.addView(robot1); ----------------------스레드 임시 멈춤///////////////////////////////////////////
         createChattWin();
         runListener();
         startPermissionReq();
@@ -360,6 +360,7 @@ public class PaintingRoom extends AppCompatActivity{
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 ChatData tmp = dataSnapshot.getValue(ChatData.class);
+                if(tmp == null || tmp.getUserName() == null || tmp.getMessage() == null) return;
                 adapter.add(tmp.getUserName()+ " : "+tmp.getMessage());
                 chattDatas.smoothScrollByOffset(adapter.getCount());
             }
