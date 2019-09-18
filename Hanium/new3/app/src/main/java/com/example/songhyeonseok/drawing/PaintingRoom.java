@@ -1,6 +1,5 @@
 package com.example.songhyeonseok.drawing;
 
-import android.*;
 import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -23,7 +22,6 @@ import android.media.ExifInterface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.Handler;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
@@ -31,15 +29,12 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Display;
-import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -64,7 +59,6 @@ import android.view.Surface;
 
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
-import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -75,8 +69,6 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.MutableData;
-import com.google.firebase.database.Transaction;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
@@ -86,8 +78,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import static com.example.songhyeonseok.drawing.R.id.fab_menu;
 
@@ -184,7 +174,7 @@ public class PaintingRoom extends AppCompatActivity{
         fabrec_play = (FloatingActionButton) findViewById(R.id.rec_play);
         fabcapture = (FloatingActionButton) findViewById(R.id.capture);
 
-        fam = (FloatingActionMenu) findViewById(R.id.fab_menu);
+        fam = (FloatingActionMenu) findViewById(fab_menu);
         fab_chatt = (FloatingActionButton) findViewById(R.id.fab_chatt);
 
         tools = (LinearLayout)findViewById(R.id.drawer_tools);
@@ -262,7 +252,7 @@ public class PaintingRoom extends AppCompatActivity{
         //--------------------------------------------------------------------------------------------------
         noBody = true;//테스트용 라인
         if(noBody){//칠판 참여자가 아무도 없을경우
-            Intent intent = new Intent(getApplicationContext(),FriendFrame.class);
+            Intent intent = new Intent(this.getApplicationContext(),FriendFrame.class);
             startActivityForResult(intent,CALL_THE_FRIENDFRAME);//친구창 띄우기
         }
         //startActivityForResult(new Intent(getApplicationContext(),RecordQ.class),CALL_THE_RECORDFRAME);//녹화여부 묻기
@@ -272,8 +262,10 @@ public class PaintingRoom extends AppCompatActivity{
         coverArea = (LinearLayout)findViewById(R.id.coverArea_paintroom);
         l1 = (ImageView) findViewById(R.id.canvas1);
 
+        //BackgroundDrawingView robot1 = new BackgroundDrawingView(this,width_coeffi,height_coeffi); ----------------------스레드 임시 멈춤///////////////////////////
         mv = new MyView(this,width_coeffi,height_coeffi);
         parent.addView(mv);
+        //parent.addView(robot1); ----------------------스레드 임시 멈춤///////////////////////////////////////////
         createChattWin();
         runListener();
         startPermissionReq();
@@ -360,7 +352,6 @@ public class PaintingRoom extends AppCompatActivity{
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 ChatData tmp = dataSnapshot.getValue(ChatData.class);
-                if(tmp == null || tmp.getUserName() == null || tmp.getMessage() == null) return;
                 adapter.add(tmp.getUserName()+ " : "+tmp.getMessage());
                 chattDatas.smoothScrollByOffset(adapter.getCount());
             }

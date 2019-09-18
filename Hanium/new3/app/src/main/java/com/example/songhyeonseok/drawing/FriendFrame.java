@@ -34,7 +34,7 @@ public class FriendFrame extends AppCompatActivity {
                 finish();
             }
         });
-        String[] testDatas = new String[5];
+        String[] testDatas = new String[3];
         for(int i = 0; i < 3; i++){
             switch(i){
                 case 2: testDatas[i] = "송현석";
